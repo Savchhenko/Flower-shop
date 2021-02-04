@@ -56,12 +56,53 @@ body {
     font-size: 16px;
 }
 .hero {
+    padding-top: 100px;
     text-align: center;
+    padding-bottom: 77px;
+    border-bottom: 1px solid #4c4c4c;
+}
+.hero-title {
+    font-size: 34px;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 0.34px; 
+    font-family: 'Gotham Pro Medium';
+}
+.hero-description {
+    font-size: 18px;
+    font-family: 'Gotham Pro Light';
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    line-height: 1.4;
 }
 .flowers-slider {
     width: 100%;
     text-align: center;
+    margin-top: 87px;
+    margin-bottom: 83px;
 }
 :root {
     --swiper-navigation-size: 18px;
+}
+.hero-cta {
+    display: block;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: "Gotham Pro Light";
+    letter-spacing: 0.19px;
+    margin-bottom: 36px;
+}
+.button {
+    display: inline-block;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff2e55;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: 36px;
 }
