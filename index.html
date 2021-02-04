@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowers - интернет-магазин цветов</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -34,5 +35,52 @@
         </div>
         <!-- /.container -->
     </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Эксклюзивные цветы и букеты <br>flowers Shop</h1>
+            <p class="hero-description">первая в россии эксклюзивная доставка цветов
+                для людей, которые ценят <b>уникальность</b></p>
+
+            <!-- Slider with flowers -->
+            <div class="swiper-container flowers-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/flowers/flower-1.png" alt="rose" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flowers/flower-2.png" alt="rose" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flowers/flower-3.png" alt="rose" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flowers/flower-4.png" alt="rose" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flowers/flower-5.png" alt="rose" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flowers/flower-6.png" alt="rose" class="slide-image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/flowers/flower-3.png" alt="rose" class="slide-image">
+                    </div>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <!-- /.swiper-container -->
+
+
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src='js/main.js'></script>
 </body>
 </html>
