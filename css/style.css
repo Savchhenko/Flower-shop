@@ -16,10 +16,14 @@
     font-weight: normal;
     font-style: normal;
     }
+*, *:after, *:before {
+    box-sizing: border-box;
+}
 body {
     background-color: #292929;
     color: #fff;
     font-family: 'Gotham Pro', sans-serif;
+    margin: 0;
 }
 .header {
     padding-top: 50px;
@@ -105,4 +109,76 @@ body {
     padding-left: 65px;
     padding-right: 65px;
     margin-top: 36px;
+}
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.review-image {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Gotham Pro Light';
+    position: relative;
+    margin-right: 50px;
+}
+/* Затемнили картинку */
+.review-image:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
+/* Таким образом текст поверх картинки не будет затемнен */
+.review-image > * {
+    position: relative;
+}
+.review-image-1 {
+    background: #000 url('../img/reviews/review-1.jpg');
+}
+.review-name {
+    margin-bottom: 7px;
+}
+.review-slide {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.review-text {
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    line-height: 1.4;
+}
+.review-link {
+    color: #f24841;
+}
+.review-image-2 {
+    background: #000 url('../img/reviews/review-2.jpg')
+}
+.section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3px;
+    margin-bottom: 98px;
+}
+.advantages {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #4c4c4c;
+}
+.advantages-wrapper {
+    min-height: 85px;
+    margin-bottom: 30px;
+}
+.advantages-title {
+    top: 20px;
+    text-align: uppercase;
+    line-height: 1.4;
+    max-width: 270px;
+    margin: auto;
 }
