@@ -67,11 +67,13 @@ body {
 }
 .hero-title {
     font-size: 34px;
+    margin: auto;
     margin-bottom: 34px;
     text-transform: uppercase;
     line-height: normal;
     letter-spacing: 0.34px; 
     font-family: 'Gotham Pro Medium';
+    max-width: 692px;
 }
 .hero-description {
     font-size: 18px;
@@ -79,6 +81,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.18px;
     line-height: 1.4;
+    margin: auto;
+    max-width: 590px;
 }
 .flowers-slider {
     width: 100%;
@@ -350,6 +354,7 @@ body {
 .authorship {
     margin-top: 15px;
     margin-bottom: 11px;
+    padding-left: 27px;
 }
 .link {
     color: #292929;
@@ -368,4 +373,54 @@ body {
     width: 100%;
     padding: 10px;
     font-size: 18px;
+}
+@media (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+    .header-contacts {
+        text-align: center;
+    }
+    .hero {
+        padding: 50px;
+    }
+    .hero-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .colors {
+        max-width: 200px;
+        margin: auto;
+    }
+    .card-label {
+        margin: 20px auto;
+        display: block;
+    }
+    .authorship {
+        padding: 0;
+    }
+    .footer-info {
+        text-align: left;
+    }
+}
+@media (max-width: 576px) {
+    .offer,
+    .footer-info, 
+    .offer-title {
+        text-align: left;
+    }
+    /* .button {
+        width: 300px;
+    } */
 }

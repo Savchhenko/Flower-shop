@@ -9,6 +9,20 @@ $(document).ready(function () {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+
+        // Настройки адаптива для слайдера
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 2,
+        },
+        480: {
+            slidesPerView: 3,
+        },
+        992: {
+            slidesPerView: 6,
+        }
+    }
     });
     
     const reviewsSlider = new Swiper('.reviews-slider', {
