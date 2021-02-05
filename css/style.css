@@ -109,10 +109,15 @@ body {
     padding-left: 65px;
     padding-right: 65px;
     margin-top: 36px;
+    cursor: pointer;
+    border: none;
 }
 .reviews {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+.reviews-slider {
+    margin-top: 98px;
 }
 .review-image {
     width: 220px;
@@ -163,7 +168,6 @@ body {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.3px;
-    margin-bottom: 98px;
 }
 .advantages {
     text-align: center;
@@ -181,4 +185,86 @@ body {
     line-height: 1.4;
     max-width: 270px;
     margin: auto;
+}
+.goods {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-description {
+    font-size: 18px;
+    text-align: center;
+}
+.card {
+    text-align: center;
+    border: 3px solid #fff;
+    padding: 33px 35px 30px 35px;
+    margin-top: 27px;
+}
+.card-title {
+    margin-top: 23px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.card-label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+.color-label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.color-input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -9;
+}
+.color-label.white {
+    background-color: #fff;
+
+}
+.color-label.beige {
+    background-color: #f7b496;
+    
+}
+.color-label.pink {
+    background-color: #ed366e;
+    
+}
+.color-label.red {
+    background-color: #ff0000;
+    
+}
+.color-label.blue {
+    background-color: #12129d;
+    
+}
+.counter-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #292929;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.counter-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #292929;
+    border: none;
+}
+.card-button {
+    font-size: 14px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
