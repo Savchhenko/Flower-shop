@@ -195,6 +195,7 @@ body {
     text-align: center;
 }
 .card {
+    height: 421px;
     text-align: center;
     border: 3px solid #fff;
     padding: 33px 35px 30px 35px;
@@ -267,4 +268,21 @@ body {
     padding-bottom: 13px;
     padding-left: 10px;
     padding-right: 10px;
+}
+.more {
+    display: block;
+    font-size: 14px;
+    color: #f24841;
+    text-align: center;
+    margin-top: 39px;
+    padding: 10px;
+}
+.more:after {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 4px;
+    background: url('../img/curret.svg') no-repeat center;
+    margin-left: 14px;
+    vertical-align: middle
 }
