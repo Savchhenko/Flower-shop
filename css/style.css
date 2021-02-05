@@ -354,3 +354,18 @@ body {
 .link {
     color: #292929;
 }
+.modal {
+    display: none;
+}
+.modal-title {
+    color: #292929;
+}
+.modal-button {
+    width: 100%;
+}
+.modal-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
