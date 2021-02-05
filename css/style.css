@@ -286,3 +286,71 @@ body {
     margin-left: 14px;
     vertical-align: middle
 }
+.offer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+.offer-link {
+    text-transform: uppercase;
+    color:#fff;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 65px;
+}
+.offer-label {
+    display: block;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+.offer-phone {
+    font-size: 36px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 33px;
+}
+.footer-menu-link {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-menu-item {
+    margin-right: 30px;
+}
+.social {
+    font-size: 16px;
+}
+.footer-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.footer-info {
+    text-align: right;
+}
+.footer-phone {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    font-size: 24px;
+    color: #fff;
+}
+.second-footer {
+    background-color: #fff;
+    color: #292929;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.authorship {
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+.link {
+    color: #292929;
+}
