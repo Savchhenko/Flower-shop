@@ -72,3 +72,22 @@ $(document).ready(function () {
     });
 
 });
+
+const btnCountMinus = document.getElementById('buttonCountMinus');
+const btnCountPlus = document.getElementById('buttonCountPlus');
+let counter = document.getElementById('buttonCountNumber').innerText;
+
+counter = Number.parseInt(counter, 10);
+
+btnCountMinus.onclick = function (event) {
+    if (counter != 0) {
+        counter -= 1;
+        document.getElementById('buttonCountNumber').innerHTML = counter;
+    }
+};
+
+btnCountPlus.onclick = function (event) {
+    counter += 1;
+    document.getElementById('buttonCountNumber').innerHTML = counter;
+};
+

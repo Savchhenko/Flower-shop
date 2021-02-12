@@ -255,6 +255,7 @@ body {
     background-color: #292929;
     margin-left: 15px;
     margin-right: 15px;
+    padding: 10px;
 }
 .counter-button {
     width: 40px;

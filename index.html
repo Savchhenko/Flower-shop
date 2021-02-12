@@ -192,9 +192,9 @@
                         <span class="card-label">Количество:</span>
     
                         <div class="counter-group d-flex justify-content-center aligh-items-center">
-                            <button class="counter-button">-</button>
-                            <input type="text" class="counter-input" value="1"></input>
-                            <button class="counter-button">+</button>
+                            <button class="counter-button" id="buttonCountMinus">-</button>
+                            <div type="text" class="counter-input counter-number" id="buttonCountNumber">1</div>
+                            <button class="counter-button" id="buttonCountPlus">+</button>
                         </div>
                         <!-- /.counter-group -->
     
@@ -498,7 +498,7 @@
     <section class="offer">
         <div class="container">
             <h2 class="section-title offer-title">Остались вопросы?</h2>
-            <a href="#" class="offer-link">Закажите звонок нашего флориста!</a>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="offer-link">Закажите звонок нашего флориста!</a>
             <span class="offer-label">или позвоните по телефону<br></span>
             <a href="tel:+78006548745" class="offer-phone">8 (800) 654-87-45</a>
         </div>
