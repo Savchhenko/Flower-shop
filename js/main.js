@@ -73,21 +73,36 @@ $(document).ready(function () {
 
 });
 
-const btnCountMinus = document.getElementById('buttonCountMinus');
-const btnCountPlus = document.getElementById('buttonCountPlus');
-let counter = document.getElementById('buttonCountNumber').innerText;
+const btnCountMinus1 = document.getElementById('buttonCountMinus1');
+const btnCountPlus1 = document.getElementById('buttonCountPlus1');
 
-counter = Number.parseInt(counter, 10);
+const minus = 'minus', 
+    plus = 'plus';
+    
+var strf = id => `${id}`;
 
-btnCountMinus.onclick = function (event) {
-    if (counter != 0) {
-        counter -= 1;
-        document.getElementById('buttonCountNumber').innerHTML = counter;
+btnCountMinus1.addEventListener('click', function() {counter('buttonCountNumber1', strf, minus);});
+btnCountPlus1.addEventListener('click', function() {counter('buttonCountNumber1', strf, plus); });
+
+
+function counter(id, strf, e) {
+    console.log('Listener was activated');
+    console.log(strf(id)); // получаем id, который можно использовать в методе getElementById без ковычек
+
+    let counter = Number.parseInt(document.getElementById(strf(id)).innerText, 10);
+
+    if (e === 'plus') {
+        counter += 1;
+        document.getElementById(strf(id)).innerHTML = counter;
     }
-};
+    if(e === 'minus') {
+        if(counter != 0) {
+            counter -= 1;
+            document.getElementById(strf(id)).innerHTML = counter;
+        }
+    }
+}
 
-btnCountPlus.onclick = function (event) {
-    counter += 1;
-    document.getElementById('buttonCountNumber').innerHTML = counter;
-};
+
+
 
