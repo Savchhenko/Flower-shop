@@ -205,6 +205,9 @@ body {
     padding: 33px 35px 30px 35px;
     margin-top: 27px;
 }
+.card-image {
+    height: 78px;
+}
 .card-title {
     margin-top: 23px;
     margin-bottom: 20px;
@@ -359,6 +362,12 @@ body {
 }
 .link {
     color: #292929;
+    padding-left: 10px;
+}
+.footer-link {
+    display: block;
+    text-align: right;
+
 }
 .modal {
     display: none;
@@ -417,7 +426,8 @@ body {
 }
 @media (max-width: 576px) {
     .offer,
-    .footer-info, 
+    .footer-info,
+    .footer-link, 
     .offer-title {
         text-align: left;
     }
