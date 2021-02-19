@@ -31,7 +31,21 @@ body {
 .header-description {
     font-family: "Gotham Pro Light";
     letter-spacing: 0.12px;
-    font-size: 12px;
+    font-size: 14px;
+}
+.descr {
+    display: flex;
+}
+.location {
+    display: flex;
+    margin-left: 20px;
+    align-items: flex-start;
+    padding-top: 9px;
+}
+.icon-loc {
+    font-size: 20px;
+    color: #ff3469;
+    padding-left: 2px;
 }
 .text-color-red {
     color: #ff3469;
